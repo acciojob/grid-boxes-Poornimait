@@ -1,9 +1,13 @@
 #grid{
 	display:grid;
 	grid-gap:10px;
+	height:400px;
+	
 }
 #i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8,#i9,#i10{
 	background-color:green;
+	color:white;
+	font-size:30px;
 }
 #i1{
 	grid-area:1/1/span 1/span 4;
@@ -17,6 +21,6 @@
 #i5{
 	grid-area:3/2/span 1/span 2;
 }
-#10{
+#i10{
 	grid-area:5/2/span 1/span 3;
 }
