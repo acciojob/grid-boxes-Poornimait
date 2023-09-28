@@ -1,6 +1,8 @@
 #grid{
 	display:grid;
-	grid-gap:10px;	
+	grid-gap:10px;
+	grid-template-rows: repeat(5,1fr);
+	grid-template-columns: repeat(4,1fr);	
 }
 #i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8,#i9,#i10{
 	background-color:green;
