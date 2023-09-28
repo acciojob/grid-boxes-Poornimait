@@ -1,8 +1,8 @@
 #grid{
 	display:grid;
 	grid-gap:10px;
-	height:400px;
-	
+	grid-template-rows:124px 124px 124px 124px 124px;
+	grid-template-columns:242.5px 242.5px 242.5px 242.5px;	
 }
 #i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8,#i9,#i10{
 	background-color:green;
